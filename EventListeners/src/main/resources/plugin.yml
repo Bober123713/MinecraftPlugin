@@ -1,0 +1,45 @@
+name: EventListeners
+version: '${project.version}'
+main: me.boobson.eventlisteners.EventListeners
+api-version: 1.19
+authors: [ Boobson ]
+description: Plugin on event listeners
+website: none
+commands:
+  suicide:
+    description: An easy way to kill yourself
+    usage: /<command>
+  god:
+    description: Become invincible
+    usage: /<command>
+  vanish:
+    description: Simple way to vanish for all players
+    usage: /<command>
+    aliases:
+  invisible:
+    description: Simple way to become invisible (works as a potion)
+    usage: /<command>
+  feed:
+    description: Feed yourself
+    usage: /<command> [PlayerName]
+    aliases:
+      - szamka
+  level:
+    description: Add levels (if no arguments gives amount of levels from config.yml)
+    usage: /<command> [levels amount]
+  printMessageFromConfig:
+    description: Prints random text for testing
+    usage: /<command>
+  gmod:
+    description: Faster way of changing gamemodes (g 0,1,2,3)
+    usage: /<command> [mode]
+    aliases:
+      - g
+  fart:
+    description: You can fart
+    usage: /<command> [PlayerName]
+  speed:
+    description: Change your walking speed
+  arrow:
+    description: enable
+    usage: /<command>
